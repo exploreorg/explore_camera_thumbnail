@@ -1,0 +1,2 @@
+jekyll: bundle exec jekyll serve --livereload --incremental
+webpack: yarn run webpack --watch --color

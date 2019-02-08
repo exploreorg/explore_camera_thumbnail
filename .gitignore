@@ -1,0 +1,5 @@
+.sass-cache
+.jekyll-metadata
+docs/assets/js/main-bundle.js
+node_modules
+yarn-error.log
