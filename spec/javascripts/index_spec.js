@@ -9,7 +9,7 @@ describe('CameraVideoThumbnail', () => {
     fakeHls.prototype.destroy = jasmine.createSpy('destroy')
     fakeHls.Events = Hls.Events
     ReactDOM.render(
-      <CameraVideoThumbnail url='http://example.com/video.m3u8' host='example.org' hlsDriver={fakeHls} name='Good Times' src='http://example.com/bars.png' />,
+      <CameraVideoThumbnail playlistUrl='http://example.com/video.m3u8' snapshotHost='example.org' hlsDriver={fakeHls} name='Good Times' placeholderUrl='http://example.com/bars.png' />,
       root
     )
     setImmediate(done)
